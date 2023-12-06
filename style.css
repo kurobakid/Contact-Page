@@ -1,0 +1,137 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDD5E0;
+    margin: 0;
+}
+.container{
+    background-image: url(./dccl--responsive-contact-page/dccl--responsive-contact-page/bg-image.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: screen;
+    padding-bottom: 80px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+*/
+
+}
+#icon{
+    text-align: center;
+    padding: 20px;
+} 
+.title{
+    text-align: center;
+    color: white;
+}  
+.title h1{
+    margin: 0 30%;
+    font-size: 64px;
+}
+.title h4{
+    font-size: 32px;
+    margin: 1% 30% 5% 30% ;
+    font-weight: normal;
+}
+form {
+        background: linear-gradient(20deg, rgba(255, 255, 255, 0.15),rgba(255, 225, 225, 0.15));
+        backdrop-filter: blur(10px);
+        width: 60%;
+        margin-left: 18%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 2%;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+label{
+    font-size: 14px;
+    color: white;
+}
+.input{
+    color: #111729;
+    font-weight: 600;
+    height: 64px;
+    border-radius: 20px;
+    padding: 0 1%;
+    font-size: 16px;
+    background-color: #F8FAFC;
+    outline: none;
+    border: none;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("./dccl--responsive-contact-page/dccl--responsive-contact-page/Expand_down.svg");
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: 50%;
+}
+textarea{
+    width: 96%;
+    color: #111729;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 2%;
+    overflow:hidden;
+    background-color: #F8FAFC;
+    outline: none;
+    border: none;
+}
+button{
+    color: #4036A9;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 2%;
+    border: none;
+}
+@media screen and (max-width:1024px){
+    .title h1{
+        margin: 0 30%;
+        font-size: 40px;
+    }
+    .title h4{
+        font-size: 20px;
+        margin: 1% 30% 5% 30% ;
+        font-weight: normal;
+    }
+    form{
+        margin:0 3%;
+        width: 90%;
+    }
+}
+@media screen and (max-width:640px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        padding: 2%;
+    }
+    .title h1{
+        margin: 0 20%;
+        font-size: 40px;
+    }
+    .title h4{
+        font-size: 20px;
+        margin: 1% 20% 5% 20% ;
+        font-weight: normal;
+    }
+}
